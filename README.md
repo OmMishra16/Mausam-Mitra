@@ -254,10 +254,5 @@ Note: You'll need to provide your own API key from WeatherAPI to fetch weather d
 
 Contributions to Mausam Mitra are welcome! Please feel free to submit a Pull Request.
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
 
 We hope Mausam Mitra becomes your go-to weather companion, providing you with the information you need to plan your day with confidence. Enjoy using Mausam Mitra!
