@@ -76,10 +76,9 @@ Mausam Mitra is a web-based application built using HTML, CSS, and JavaScript. I
        document.getElementById('humidity').textContent = `${currentWeather.humidity}%`;
        document.getElementById('uv-index').textContent = currentWeather.uv;
        
-       // Remove AQI display as it's not reliable
-       document.getElementById('air-quality').parentElement.style.display = 'none';
        
-       // Fix sunrise and sunset time display
+       document.getElementById('air-quality').parentElement.style.display = 'none';
+  
        document.getElementById('sunrise-time').textContent = formatTime(data.forecast.forecastday[0].astro.sunrise);
        document.getElementById('sunset-time').textContent = formatTime(data.forecast.forecastday[0].astro.sunset);
 
@@ -237,7 +236,7 @@ Mausam Mitra is a web-based application built using HTML, CSS, and JavaScript. I
    }
 
    function updateFavoriteButton(cityName) {
-       // Implementation details...
+      //implementation details
    }
    ```
 
