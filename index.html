@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-cloud-sun"></i>
+                <h1>Mausam Mitra</h1>
+            </div>
+            <div class="header-right">
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="search-container">
+                    <input type="text" id="city-search" placeholder="Search for a city...">
+                    <button id="search-button"><i class="fas fa-search"></i></button>
+                    <ul id="city-suggestions-list" class="suggestions-list"></ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section id="current-weather" class="card">
+                <div class="weather-info">
+                    <div id="weather-icon" class="weather-icon">🌤️</div>
+                    <div class="weather-details">
+                        <div class="location-wrapper">
+                            <div id="location" class="location">Loading location...</div>
+                            <button id="favorite-button" class="favorite-button">☆</button>
+                        </div>
+                        <div class="temperature-wrapper">
+                            <div id="temperature" class="temperature">--°C</div>
+                            <div id="feels-like" class="feels-like">Feels like: --°C</div>
+                        </div>
+                        <div id="description" class="description">Loading...</div>
+                    </div>
+                </div>
+                <div class="additional-info">
+                    <div class="info-item">
+                        <i class="fas fa-wind"></i>
+                        <span id="wind-speed">-- km/h</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-tint"></i>
+                        <span id="humidity">--%</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-sun"></i>
+                        <span id="uv-index">--</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-leaf"></i>
+                        <span id="air-quality">-- AQI</span>
+                    </div>
+                </div>
+                <div class="sun-times">
+                    <div class="sun-time">
+                        <i class="fas fa-sunrise"></i>
+                        <div class="sun-time-content">
+                            <span class="sun-time-label">Sunrise</span>
+                            <span id="sunrise-time">--:--</span>
+                        </div>
+                    </div>
+                    <div class="sun-time">
+                        <i class="fas fa-sunset"></i>
+                        <div class="sun-time-content">
+                            <span class="sun-time-label">Sunset</span>
+                            <span id="sunset-time">--:--</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="weather-impact" class="weather-impact">
+                    <div class="impact-icon"></div>
+                    <div class="impact-content">
+                        <h3>Weather Impact:</h3>
+                        <p>Loading weather impact...</p>
+                    </div>
+                </div>
+            </section>
+            <section id="favorite-cities" class="card">
+                <h2>Favorite Cities</h2>
+                <ul id="favorite-cities-list"></ul>
+            </section>
+            <section id="forecast" class="card">
+                <h2>7-Day Forecast</h2>
+                <div id="forecast-cards" class="forecast-cards">
+                    <!-- dynamic cards-->
+                </div>
+            </section>
+            <section id="charts" class="card">
+                <h2>Temperature Trend</h2>
+                <canvas id="temperatureChart"></canvas>
+            </section>
+        </main>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
