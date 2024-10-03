@@ -2,7 +2,7 @@
 
 Deployed Link :- https://ommishra16.github.io/Mausam-Mitra/
 
-Demo Link :- https://www.loom.com/share/afc8fa52e84a46948b554cb565fb6c32?sid=cf4f21e8-28e0-4070-aa51-431a75e11cea
+Demo Video :- https://www.loom.com/share/afc8fa52e84a46948b554cb565fb6c32?sid=cf4f21e8-28e0-4070-aa51-431a75e11cea
 
 
 ## Weather at Your Fingertips
