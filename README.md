@@ -2,19 +2,18 @@
 
 ## Weather at Your Fingertips
 
-Mausam Mitra is a user-friendly, feature-rich weather application designed to provide you with accurate and up-to-date weather information. The name "Mausam Mitra" combines the Hindi word "Mausam" (meaning weather) with "Mitra" (meaning friend), embodying the app's goal to be your reliable weather companion.
+Mausam Mitra helps you stay prepared for any weather, whether it's for daily plans or long trips.
 
 ## Solving User Needs
 
 In today's fast-paced world, staying informed about weather conditions is crucial for planning daily activities, travel, and more. Mausam Mitra addresses this need by offering:
 
 1. **Instant Weather Updates**: Get real-time weather information for any location worldwide.
-2. **User-Friendly Interface**: An intuitive design that makes accessing weather data effortless.
-3. **Comprehensive Data**: View current conditions, forecasts, and additional weather metrics all in one place.
-4. **Favorite Locations**: Save and quickly access weather information for your frequently visited places.
-5. **Visual Representations**: Understand weather trends easily with charts and icons.
-6. **Weather Impact Insights**: Receive practical advice based on current weather conditions.
-7. **Dark Mode**: Comfortable viewing in low-light conditions with a dark theme option.
+2. **Comprehensive Data**: View current conditions, forecasts, and additional weather metrics all in one place.
+3. **Favorite Locations**: Save and quickly access weather information for your frequently visited places.
+4. **Visual Representations**: Understand weather trends easily with charts and icons.
+5. **Weather Impact Insights**: Receive practical advice based on current weather conditions.
+6. **Dark Mode**: Comfortable viewing in low-light conditions with a dark theme option.
 
 ## Project Overview
 
